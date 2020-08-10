@@ -14,7 +14,7 @@
     "children": ["flex-layout.col#left", "flex-layout.col#right"]
   },
   "flex-layout.col#left": {
-    "children": ["stack-layout#brand"]
+    "children": ["stack-layout#brand", "filter-navigator.v3"]
   },
   "stack-layout#brand": {
     "children": ["product-images", "product-brand"]
@@ -37,7 +37,8 @@
       "product-price",
       "flex-layout.row#qty-sku",
       "buy-button",
-      "shipping-simulator"
+      "shipping-simulator",
+      "search-content"
     ],
     "props": {
       "verticalAlign": "middle",
