@@ -16,7 +16,7 @@
   "image": {
     "props": {
       "src": "https://www.w3schools.com/w3css/img_forest.jpg",
-      "minWidth": 100
+      "minWidth": "100%"
     }
   }
 }
