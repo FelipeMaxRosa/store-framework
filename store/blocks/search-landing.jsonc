@@ -1,8 +1,10 @@
 {
   "store.custom#landing": {
-    "blocks": ["image", "search-result-layout.customQuery"]
+    "blocks": ["search-result-layout.customQuery"],
+    "children": ["image#landing"]
   },
-  "image": {
+
+  "image#landing": {
     "props": {
       "src": "https://www.w3schools.com/w3css/img_forest.jpg",
       "minWidth": 100
