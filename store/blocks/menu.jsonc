@@ -12,7 +12,18 @@
   },
 
   "menu-item#major-appliances": {
-    "children": ["vtex.menu@2.x:submenu#major"]
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Major Appliances",
+        "text": "Major Appliances"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#major"] // Defining a submenu
   },
   "vtex.menu@2.x:submenu#major": {
     "children": ["vtex.menu@2.x:menu#major"]
@@ -30,7 +41,18 @@
   },
 
   "menu-item#small-appliances": {
-    "children": ["vtex.menu@2.x:submenu#small"]
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Small Appliances",
+        "text": "Small Appliances"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#small"] // Defining a submenu
   },
   "vtex.menu@2.x:submenu#small": {
     "children": ["vtex.menu@2.x:menu#small"]
@@ -43,7 +65,18 @@
   },
 
   "menu-item#eletronics": {
-    "children": ["vtex.menu@2.x:submenu#electronics"]
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Eletronics",
+        "text": "Eletronics"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#electronics"] // Defining a submenu
   },
   "vtex.menu@2.x:submenu#electronics": {
     "children": ["vtex.menu@2.x:menu#electronics"]
