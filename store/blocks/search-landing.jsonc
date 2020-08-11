@@ -4,8 +4,8 @@
   },
   "image": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
-      "minWidth ": 100
+      "src": "https://www.w3schools.com/w3css/img_forest.jpg",
+      "minWidth": 100
     }
   },
   "search-result-layout.customQuery": {
