@@ -1,14 +1,6 @@
 {
   "store.custom#landing": {
-    "blocks": ["search-result-layout.customQuery"],
-    "children": ["image#landing"]
-  },
-
-  "image#landing": {
-    "props": {
-      "src": "https://www.w3schools.com/w3css/img_forest.jpg",
-      "minWidth": 100
-    }
+    "blocks": ["search-result-layout.customQuery", "image#landing"]
   },
   "search-result-layout.customQuery": {
     "props": {
@@ -19,6 +11,13 @@
         "hideUnavailableItems": true,
         "maxItemsPerPage": 8
       }
+    }
+  },
+
+  "image#landing": {
+    "props": {
+      "src": "https://www.w3schools.com/w3css/img_forest.jpg",
+      "minWidth": 100
     }
   }
 }
