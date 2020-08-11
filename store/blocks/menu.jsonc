@@ -12,6 +12,7 @@
   },
 
   "menu-item#major-appliances": {
+    "blocks": ["vtex.menu@2.x:submenu#major"],
     "props": {
       "type": "custom",
       "highlight": false,
@@ -22,8 +23,7 @@
         "tagTitle": "Major Appliances",
         "text": "Major Appliances"
       }
-    },
-    "blocks": ["vtex.menu@2.x:submenu#major"] // Defining a submenu
+    }
   },
   "vtex.menu@2.x:submenu#major": {
     "children": ["vtex.menu@2.x:menu#major"]
@@ -34,13 +34,52 @@
       "menu-item#ovens",
       "menu-item#washers"
     ],
-
     "props": {
       "orientation": "vertical"
     }
   },
+  "menu-item#refrigerators": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Refrigerators",
+        "text": "Refrigerators"
+      }
+    }
+  },
+  "menu-item#ovens": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Ovens",
+        "text": "Ovens"
+      }
+    }
+  },
+  "menu-item#washers": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Washers",
+        "text": "Washers"
+      }
+    }
+  },
 
   "menu-item#small-appliances": {
+    "blocks": ["vtex.menu@2.x:submenu#small"],
     "props": {
       "type": "custom",
       "highlight": false,
@@ -51,8 +90,7 @@
         "tagTitle": "Small Appliances",
         "text": "Small Appliances"
       }
-    },
-    "blocks": ["vtex.menu@2.x:submenu#small"] // Defining a submenu
+    }
   },
   "vtex.menu@2.x:submenu#small": {
     "children": ["vtex.menu@2.x:menu#small"]
@@ -63,8 +101,48 @@
       "orientation": "vertical"
     }
   },
+  "menu-item#mixers": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Mixers",
+        "text": "Mixers"
+      }
+    }
+  },
+  "menu-item#toasters": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Toasters",
+        "text": "Toasters"
+      }
+    }
+  },
+  "menu-item#coffee": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Coffe",
+        "text": "Coffe"
+      }
+    }
+  },
 
   "menu-item#eletronics": {
+    "blocks": ["vtex.menu@2.x:submenu#electronics"],
     "props": {
       "type": "custom",
       "highlight": false,
@@ -75,8 +153,7 @@
         "tagTitle": "Eletronics",
         "text": "Eletronics"
       }
-    },
-    "blocks": ["vtex.menu@2.x:submenu#electronics"] // Defining a submenu
+    }
   },
   "vtex.menu@2.x:submenu#electronics": {
     "children": ["vtex.menu@2.x:menu#electronics"]
@@ -85,6 +162,45 @@
     "children": ["menu-item#cameras", "menu-item#laptops", "menu-item#tvs"],
     "props": {
       "orientation": "vertical"
+    }
+  },
+  "menu-item#cameras": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Cameras",
+        "text": "Cameras"
+      }
+    }
+  },
+  "menu-item#laptops": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Laptops",
+        "text": "Laptops"
+      }
+    }
+  },
+  "menu-item#tvs": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "TVs",
+        "text": "TVs"
+      }
     }
   }
 }
