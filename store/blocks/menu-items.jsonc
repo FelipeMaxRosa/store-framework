@@ -5,6 +5,7 @@
       "type": "custom",
       "highlight": true,
       "itemProps": {
+        "categoryId": 1,
         "text": "Major Aplliances"
       }
     }
